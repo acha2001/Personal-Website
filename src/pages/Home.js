@@ -7,7 +7,7 @@ import '../css/home.css'
 const Home = () => {
 
   return (
-    <section className='section'>
+    <>
       <div class="main">
         <NavBar/>
         <div class="main_title main_item">
@@ -30,8 +30,8 @@ const Home = () => {
      
      <div class="main2" id="about_section">
     
-     </div>
-    </section>
+      </div>
+     </>
   );
 };
 export default Home;

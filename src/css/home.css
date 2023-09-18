@@ -76,7 +76,7 @@
 }
 .nav_btn {
     cursor: pointer;
-    color: var(--white);
+color: var(--white);
     background: clear;
     border: transparent;
     border-radius: var(--borderRadius);
