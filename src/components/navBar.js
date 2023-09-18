@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 
 
-const navBar = () => {
+const NavBar = () => {
 
     return (
         <div class="nav_bar main_item">
@@ -9,8 +9,7 @@ const navBar = () => {
           <Link to="/projects" className="nav_btn">Projects</Link>
           <Link to="/contact" className="nav_btn">Contact</Link>
         </div>
-
     );    
 
 };
-export default navBar;
+export default NavBar;

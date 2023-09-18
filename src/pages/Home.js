@@ -1,8 +1,7 @@
 
-import {Link} from 'react-router-dom'
-import {Text,Style} from 'react'
 import HeadShot from "../photos/headshot.png"
 import HeadShot2 from "../photos/waterfall.png"
+import NavBar from "../components/NavBar"
 import '../css/home.css'
 
 const Home = () => {
@@ -10,11 +9,7 @@ const Home = () => {
   return (
     <section className='section'>
       <div class="main">
-        <div class="nav_bar main_item">
-          <a href="#about_section" class="nav_btn">About</a>
-          <Link to="/projects" className="nav_btn">Projects</Link>
-          <Link to="/contact" className="nav_btn">Contact</Link>
-        </div>
+        <NavBar/>
         <div class="main_title main_item">
           <h1>Andrew Chapman</h1>
           <text >Sophtware Developer</text>
