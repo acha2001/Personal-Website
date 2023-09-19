@@ -1,8 +1,10 @@
 
-import HeadShot from "../photos/headshot.png"
-import HeadShot2 from "../photos/waterfall.png"
 import NavBar from "../components/home/NavBar"
 import Name from "../components/home/Name"
+import PersonalStatement from "../components/home/PersonalStatement"
+import Spacer from "../components/home/Spacer"
+import About from "../components/home/About"
+
 import '../css/home.css'
 
 const Home = () => {
@@ -12,23 +14,12 @@ const Home = () => {
       <div class="main">
         <NavBar/>
         <Name/>
-        <div class = " summary main_item">
-          <text>Energetic and highly motivated computer science graduate with a strong foundation in software development, seeking a challenging entry-level position to apply my technical skills, problem-solving abilities, and passion for coding. Committed to delivering innovative solutions and contributing to the success of a dynamic software development team.</text>
-        </div>
+        <PersonalStatement/>
      </div>
-     
-     <div class="block">
-      <div class="headshot_containter">
-        <img src={HeadShot} class="headshot"/>
-      </div>
-      <div class="headshot_conatiner">
-        <img src={HeadShot2} class="headshot"/>
-      </div>
-     </div>
-     
+     <Spacer/>    
      <div class="main2" id="about_section">
-    
-      </div>
+      <About/>
+     </div>
      </>
   );
 };

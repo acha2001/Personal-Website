@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Conway's Game of Life Sim",
+        "photo_path": "/photos/gameOfLife.jpg",
+        "description":"In this project I created a simple visulaization of the the Atomiton created by mathemitician Sean Conway for one of my math classes."    
+    },
+    {
+        "name": "Sorting Algorithm Display",
+        "photo_path": "/photos/sorting.jpeg",
+        "description":"In this project I created a simple visulaization of the the Atomiton created by mathemitician Sean Conway for one of my math classes."    
+    },
+    {
+        "name": "Network Project",
+        "photo_path": "/photos/network.jpg",
+        "description":"In this project I created a simple visulaization of the the Atomiton created by mathemitician Sean Conway for one of my math classes."    
+        
+    }
+]

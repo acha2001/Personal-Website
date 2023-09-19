@@ -4,7 +4,7 @@ const Name = () => {
     <>
         <div class="main_title main_item">
           <h1>Andrew Chapman</h1>
-          <text >Sophtware Developer</text>
+          <text >Jr. Software Engineer</text>
         </div>
     </>
   );

@@ -57,7 +57,7 @@
 
 
 .main2 {
-    height: 67.5rem;
+    min-height: 100vh;
     background-image: url("../photos/background2.jpeg");
     background-attachment: fixed;
     background-position: center;
