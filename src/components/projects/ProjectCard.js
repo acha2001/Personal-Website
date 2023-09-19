@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import data from './data.json';
-import HeadShot from "../../photos/gameOfLife.jpeg"
+
   
 
 const ProjectCard = (props) => {

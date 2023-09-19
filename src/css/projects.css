@@ -1,9 +1,40 @@
 .card_wrapper {
+    
+    margin: 0rem 0rem 2rem 0rem;
+
     display:flex;
     justify-content: center;
 }
 
 .card {
-
+    min-width: 240px;
     margin: 2vw 2vw 1vw 2vw
+}
+
+.Board {
+    position: relative;  
+    margin: 5vw auto 5vw auto;  
+    background-color: var(--color-2);
+    border:2px solid;
+    border-color: var(--color-4);
+    border-radius: 5px;
+    background-image:    
+    linear-gradient(var(--color-4) 1px, transparent 1px),    
+    linear-gradient(90deg,var(--color-4) 1px, transparent 4px);
+
+}
+.Cell {  
+    background: #ccc;  
+    position: absolute;}
+
+
+@media (max-width:800px) {
+    .card_wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card {
+        margin: 3em
+    }
 }
