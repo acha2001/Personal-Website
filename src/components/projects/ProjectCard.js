@@ -5,9 +5,8 @@ import data from './data.json';
   
 
 const ProjectCard = (props) => {
-  
-  console.log(data);
   const imgPath = data[props.id].photo_path;
+  const hrefID = data[props.id].hrefID;
   
   return (
       <Card style={{ width: '20rem' }}>
@@ -17,7 +16,7 @@ const ProjectCard = (props) => {
         <Card.Text>
             {data[props.id].description }
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button href={hrefID} variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
       );

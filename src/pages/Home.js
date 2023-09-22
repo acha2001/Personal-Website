@@ -8,7 +8,7 @@ import About from "../components/home/About"
 import '../css/home.css'
 
 const Home = () => {
-
+  window.scrollTo(0, 0)
   return (
     <>
       <div class="main">

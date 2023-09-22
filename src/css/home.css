@@ -22,7 +22,7 @@
     
     padding:5rem 0rem;
 
-    cursor: pointer;
+    cursor: default;
     color: var(--white);
     background: clear;
     border: transparent;
@@ -76,7 +76,7 @@
 }
 .nav_btn {
     cursor: pointer;
-color: var(--white);
+    color: var(--white);
     background: clear;
     border: transparent;
     border-radius: var(--borderRadius);
@@ -87,6 +87,36 @@ color: var(--white);
     text-transform: capitalize;
     display: inline-block;
   }
+
+.about_title {
+    padding-top:2rem;
+    
+
+    cursor: default;
+    color: var(--white);
+    background: clear;
+    border: transparent;
+    text-shadow: black;
+    text-align: center;
+}
+.about_text{
+   
+    padding:3rem auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50vw;
+    cursor: default;
+    color: var(--white);
+    background: clear;
+    border: transparent;
+    text-shadow: black;
+    text-align: center;
+}
+.about_text > * {
+
+    margin-top: 1rem;
+
+}
   .nav_btn:hover {
     background: clear;
     color: --grey-400;

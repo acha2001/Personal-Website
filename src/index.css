@@ -190,6 +190,11 @@ ul {
   background: var(--green-light);
 }
 /* form */
+.center {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .form {
   width: 90vw;
@@ -303,4 +308,13 @@ ul {
 .product img {
   width: 200px;
   height: 150px;
+}
+
+.full_view {
+  min-height: 100vh;
+}
+
+.fit_content {
+  height: fit-content;
+  width:fit-content;
 }

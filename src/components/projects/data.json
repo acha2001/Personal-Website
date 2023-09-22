@@ -1,18 +1,22 @@
 [
+
     {
-        "name": "Conway's Game of Life Sim",
-        "photo_path": "/photos/gameOfLife.jpg",
-        "description":"In this project I created a simple visulaization of the the Atomiton created by mathemitician Sean Conway for one of my math classes."    
-    },
-    {
-        "name": "Sorting Algorithm Display",
+        "name": "Image Clustering AI Project",
         "photo_path": "/photos/sorting.jpeg",
-        "description":"In this project I created a simple visulaization of the the Atomiton created by mathemitician Sean Conway for one of my math classes."    
+        "description":"In this project I implemented and optimized diverse machine learning algorithms for accurate classification of handwritten digits. ",
+        "hrefID":"#BOARD"
     },
     {
         "name": "Network Project",
         "photo_path": "/photos/network.jpg",
-        "description":"In this project I created a simple visulaization of the the Atomiton created by mathemitician Sean Conway for one of my math classes."    
+        "description":"In this project I created a simple visulaization of the the Atomiton created by mathemitician Sean Conway for one of my math classes.",
+        "hrefID":"#BOARD"
         
+    },
+    {
+        "name": "Conway's Game of Life Sim",
+        "photo_path": "/photos/gameOfLife.jpg",
+        "description":"In this project I created a simple visualization of the Autamiton created by mathematician Sean Conway in a react JS component",
+        "hrefID":"#GAME_VIEW"
     }
 ]
