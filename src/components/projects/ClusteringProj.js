@@ -5,7 +5,7 @@ import ProjectOutcome from "./cluster/ProjectOutCome";
 const ClusteringProj = () => {    
 
     return (
-            <div class="project_view"> 
+            <div class="project_view" id="CLUSTERING"> 
                 <h1 class="title project_title">
                     Image Clustering and Classification
                 </h1>

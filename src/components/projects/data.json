@@ -4,12 +4,12 @@
         "name": "Image Clustering AI Project",
         "photo_path": "/photos/sorting.jpeg",
         "description":"In this project I implemented and optimized diverse machine learning algorithms for accurate classification of handwritten digits. ",
-        "hrefID":"#BOARD"
+        "hrefID":"#CLUSTERING"
     },
     {
         "name": "Network Project",
         "photo_path": "/photos/network.jpg",
-        "description":"In this project I created a simple visulaization of the the Atomiton created by mathemitician Sean Conway for one of my math classes.",
+        "description":"Project coming soon. Im currently working on it but should be done. Will create an app that uses both user/user connection and user/server connection. ",
         "hrefID":"#BOARD"
         
     },

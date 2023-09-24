@@ -2,7 +2,7 @@
 const About = () => {
   return (
     <section className='section'>
-      <h2 class= "about_title">About</h2>
+      <h2 class= "about_title">About Me</h2>
       <ul class="about_text">
         <li>
         Hello, I'm Andrew Chapman, but you can just call me Drew. I'm originally from Visalia, 
